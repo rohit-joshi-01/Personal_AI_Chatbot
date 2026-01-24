@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Initialize OpenAI client
-client = OpenAI(api_key=os.getenv(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))
+client = OpenAI(api_key=os.getenv("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"))
 
 # Streamlit page config
 st.set_page_config(
@@ -53,5 +53,6 @@ if user_prompt:
     st.session_state.messages.append(
         {"role": "assistant", "content": bot_reply}
     )
+
 
 
