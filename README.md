@@ -25,8 +25,31 @@ This project demonstrates how to create a conversational web app with persistent
 ---
 
 ## 📁 Project Structure
+
 - ├── app.py                # Main Streamlit application
 - ├── .env                  # Environment variables (API key)
 - ├── requirements.txt      # Python dependencies
 - └── README.md             # Project documentation
 
+---
+
+## 🧠 How It Works
+
+- User inputs a message via the Streamlit chat UI
+- Messages are stored in st.session_state to preserve chat history
+- The full conversation is sent to the OpenAI API
+- The AI generates a response based on context
+- The response is displayed and saved for future turns
+
+---
+
+## 📌 Future Improvements
+
+- 🔄 Streaming responses
+- 🧑‍🎨 Custom avatars or themes
+- 🧾 Chat export / download
+- 🗑️ Clear chat button
+- 🧠 System prompt customization
+
+
+--- Author : "Rohit Joshi"
