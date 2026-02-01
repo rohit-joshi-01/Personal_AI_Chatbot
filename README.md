@@ -25,8 +25,8 @@ This project demonstrates how to create a conversational web app with persistent
 ---
 
 ## 📁 Project Structure
-├── app.py                # Main Streamlit application
-├── .env                  # Environment variables (API key)
-├── requirements.txt      # Python dependencies
-└── README.md             # Project documentation
+- ├── app.py                # Main Streamlit application
+- ├── .env                  # Environment variables (API key)
+- ├── requirements.txt      # Python dependencies
+- └── README.md             # Project documentation
 
