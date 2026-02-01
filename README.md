@@ -54,6 +54,6 @@ This project demonstrates how to create a conversational web app with persistent
 
 --- 
 
-Author : "Rohit Joshi"
+<h4 align="center">Author: ROHIT JOSHI </h1>
 
 ---
